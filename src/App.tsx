@@ -1,16 +1,18 @@
 import About from "./components/About/AboutSection";
-import ContactSection from "./components/Contact/ContactSection";
+import Contact from "./components/Contact/Contact";
 import AppContainer from "./components/Containers/AppContainer";
 import Navigation from "./components/Navigation/Navigation";
-import ProjectsSection from "./components/Projects/ProjectsSection";
+import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
 
 function App() {
     return (
         <AppContainer>
             <Navigation />
             <About />
-            <ProjectsSection />
-            <ContactSection />
+            <Skills />
+            <Projects />
+            <Contact />
         </AppContainer>
     );
 }

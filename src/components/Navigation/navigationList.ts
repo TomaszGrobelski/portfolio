@@ -1,4 +1,4 @@
-const navigationList =[
+export const navigationList =[
     {name: 'Home'},
     {name: 'About'},
     {name: 'Projects'},

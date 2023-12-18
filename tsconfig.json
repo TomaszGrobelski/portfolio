@@ -1,5 +1,12 @@
 {
     "compilerOptions": {
-      "jsx": "react-jsx"
+        "jsx": "react-jsx",
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "baseUrl": "./src",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "types": ["node"]
     },
-  }
+    "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx", "src/**/*.jpg"]
+}
